@@ -127,6 +127,14 @@
         </div>
         <!-- //header -->
 
+        <div class="history">
+            <div class="container">
+                <div class="item"><a href="javascript:;" class="home">홈</a></div>
+                <div class="item"><a href="javascript:;">과제관리</a></div>
+                <div class="item"><a href="javascript:;">세부정보</a></div>
+            </div>
+        </div>
+
         <!-- content -->
         <div id="content" class="pg_content">
             <div class="content">
@@ -164,7 +172,7 @@
                                     <div class="cnt">
                                         <div class="ip_group">
                                             <div class="ip">
-                                                <input type="text" class="clear">
+                                                <input type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -181,7 +189,7 @@
                                                 </select>
                                             </div>
                                             <div class="ip">
-                                                <input type="text" class="clear">
+                                                <input type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -203,7 +211,7 @@
                                     <div class="cnt">
                                         <div class="ip_group">
                                             <div class="ip">
-                                                <input type="text" class="clear">
+                                                <input type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -215,8 +223,11 @@
                                     <div class="cnt">
                                         <div class="ip_group">
                                             <div class="ip">
-                                                <input type="text" value="" class="clear">
+                                                <input type="text" value="수자원기술주식회사" id="clearIp">
+                                                <!-- <input type="text" value="수자원기술주식회사" id="clearIp" class="bg_transparent">  -->
+                                                <!-- 시안에 input 색상이 배경색이랑 같은데 실수인것같아 흰색으로 두고 혹시 몰라 배경색이랑 같은걸로 하나 둡니다-->
                                             </div>
+                                            <button type="button" class="ls_cnt_btn remove" onclick="document.getElementById('clearIp').value = ''">삭제</button>
                                             <button type="button" class="ls_cnt_btn search">검색</button>
                                         </div>
                                     </div>

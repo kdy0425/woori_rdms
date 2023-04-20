@@ -272,3 +272,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 });
+
+
+//레이어 팝업
+function layerToggle(elm , display){
+	if(display === 'open'){
+		document.getElementById(elm).style.display = 'block'
+	}else if (display === 'close'){
+		document.getElementById(elm).style.display = 'none'
+	}
+}
+
