@@ -55,8 +55,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .hd_bottom{background-color: #12004D;position:relative;}
 .hd_bottom #nav{float:left;color:#fff;max-width:calc(100% - 82px);height:60px;display:flex;}
 .hd_bottom #nav > li{margin-left:20px;position: relative;}
-.hd_bottom #nav > li + li{margin-left:65px;}
-.hd_bottom #nav > li > a{display:block;height:60px;text-align:center;padding:18px 7px;font-weight: 600;font-size:18px;position: relative;}
+.hd_bottom #nav > li + li{margin-left:75px;}
+.hd_bottom #nav > li > a{display:block;height:60px;text-align:center;padding:18px 10px;font-weight: 600;font-size:18px;position: relative;}
 .hd_bottom #nav > li > a.active:before{content:"";position: absolute;left:0;bottom:0;width:100%;height:6px;background-color: #6055DB;z-index:1;}
 .hd_bottom #nav > li > ul{display:none;position:absolute;left:0;top:60px;background-color:#fff;color:#12004D;padding:20px;border-radius:6px;box-shadow: 0 0 15px rgba(0,0,0,.2);overflow:hidden;}
 .hd_bottom #nav > li > ul:before{content:"";position:absolute;left:0;bottom:0;width:100%;height:4px;background-color:#12004D;}
@@ -160,7 +160,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .as_member + .as_search{margin-top:18px;border:1px solid #E0E0E0;border-radius:8px;}
 .as_search .as_sform{padding:37px 20px 28px;border-bottom:1px solid #e0e0e0;}
-.as_search .as_sform select{width:100%;}
+.as_search .as_sform select{width:100%;font-weight:500;}
+.as_search .as_sform select.bold{font-weight:700;}
 .as_search .as_sform select + select{margin-top:8px;}
 
 .as_sbox{margin:23px 30px 20px;}
@@ -171,7 +172,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .as_sbox .sb_list .item + .item{margin-top:10px;}
 .as_sbox .sb_list .item .tit{color:#6A6A75;font-size:15px;padding-left:12px;position: relative;}
 .as_sbox .sb_list .item .tit:before{content:"";position:absolute;left:0;top:50%;margin-top:-3px;width:4px;height:4px;background-color: #6A6A75;border-radius: 50%;}
-.as_sbox .sb_list .item .cnt{font-size:16px;color:#222222;}
+.as_sbox .sb_list .item .cnt{font-size:16px;color:#222222;font-weight: 700;}
 .as_sbox .sb_list .item .cnt strong,
 .as_sbox .sb_list .item .cnt a{color:#6055DB;font-weight: 700;}
 
@@ -303,8 +304,9 @@ background-position: center center;background-repeat: no-repeat;background-image
 .list_top .unit{color:#6A6A75;font-size:15px;font-weight:500;float:left;margin-top:21px;margin-left:8px;}
 .list_top .l .btn{margin-right:6px;}
 .list_top .r .btn{margin-left:6px;}
-.list_top .btn{float:left;height:40px;border-radius:8px;background-color: #fff;border: 1px solid #D0D0D0;color:#222;font-size:15px;padding:0 12px;}
-.list_top .btn.type1{background-color: #6055DB;border: 1px solid #6055DB;color:#fff;}
+.list_top .btn{float:left;height:40px;border-radius:8px;background-color: #fff;border: 1px solid #D0D0D0;color:#222;font-size:15px;padding:0 10px;min-width:90px;font-weight:700;}
+.list_top .btn.type1{background-color: #6055DB;border: 1px solid #6055DB;color:#fff;min-width:78px;font-weight:400;}
+.list_top .btn.type2{min-width:78px;font-weight:400;}
 .list_top .btn span{display:inline-block;padding-left:28px;background-position: left center;background-repeat: no-repeat;}
 .list_top .btn span.down{background-image: url("data:image/svg+xml,%3Csvg id='ico_download' xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Crect id='area' width='20' height='20' fill='none'/%3E%3Cg id='그룹_374' data-name='그룹 374' transform='translate(1 1)'%3E%3Cline id='선_61' data-name='선 61' x2='16' transform='translate(1 16.5)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cline id='선_60' data-name='선 60' y2='12' transform='translate(9 1.5)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath id='패스_1146' data-name='패스 1146' d='M3.5,7,9,12l5.5-5' transform='translate(0 1.5)' fill='rgba(0,0,0,0)' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/svg%3E%0A");}
 .list_top .btn span.delete{background-image: url("data:image/svg+xml,%3Csvg id='ico_delete' xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Crect id='area' width='20' height='20' fill='none'/%3E%3Cg id='그룹_3539' data-name='그룹 3539' transform='translate(1 1)'%3E%3Cpath id='패스_2705' data-name='패스 2705' d='M2.5,5.5v9.808a1.731,1.731,0,0,0,1.731,1.731h9.231a1.731,1.731,0,0,0,1.731-1.731V5.5' transform='translate(0.154 0.769)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cline id='선_82' data-name='선 82' x2='15' transform='translate(1.5 3.962)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath id='패스_2706' data-name='패스 2706' d='M5.5,3.962V.5h5.769V3.962' transform='translate(0.615)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cline id='선_83' data-name='선 83' y1='5.769' x2='5.769' transform='translate(6.115 8.577)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cline id='선_84' data-name='선 84' x1='5.769' y1='5.769' transform='translate(6.115 8.577)' fill='none' stroke='%23222' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/svg%3E%0A");}
@@ -397,7 +399,7 @@ background-position: center center;background-repeat: no-repeat;}
 .history .item + .item{margin-left:44px;}
 .history .item + .item:before{content:"";display:block;width:24px;height:24px;background-repeat: no-repeat;background-position: center center;position:absolute;left:-34px;top:0;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='ico_arrow' transform='translate(-364 -154)'%3E%3Crect id='area' width='24' height='24' transform='translate(364 154)' fill='red' opacity='0'/%3E%3Cpath id='_' data-name='&gt;' d='M-12328.559-11158.816l5,5-5,5' transform='translate(12702.559 11320.316)' fill='none' stroke='%23d9d9d9' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/svg%3E%0A");}
 .history .item:last-child a{color:#12004D;font-weight:700;}
-
+.history .item:last-child{margin-right:5px;}
 .login_wrap{display:flex;margin-top:60px;}
 .login_wrap .join_point{}
 .join_point{width:630px;margin-right:20px;background-color: #F1F1FE;border-radius:15px;padding:50px;}
