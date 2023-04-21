@@ -265,6 +265,13 @@ background-position: center center;background-repeat: no-repeat;background-image
 .list_search .ls_cnt .row .cnt .ip_group input[type="email"],
 .list_search .ls_cnt .row .cnt .ip_group input[type="password"],
 .list_search .ls_cnt .row .cnt .ip_group select{height:40px;border:1px solid #D0D0D0;background-color:#fff;padding-left:14px;border-radius:6px;font-weight:400;font-size:16px;color:#222;}
+
+.list_search .ls_cnt .row .cnt .ip_group input[type="text"]:disabled,
+.list_search .ls_cnt .row .cnt .ip_group input[type="tel"]:disabled,
+.list_search .ls_cnt .row .cnt .ip_group input[type="email"]:disabled,
+.list_search .ls_cnt .row .cnt .ip_group input[type="password"]:disabled,
+.list_search .ls_cnt .row .cnt .ip_group select:disabled{background-color: #F5F5F5;}
+
 .list_search .ls_cnt .row .cnt .ip_group .ip .clear{padding-right:40px;}
 .list_search .ls_cnt .row .cnt .ip_group * + *{margin-left:6px;}
 .list_search .ls_cnt .row .cnt input.bg_transparent{background-color: transparent !important;}
@@ -491,6 +498,8 @@ background-position: center center;background-repeat: no-repeat;}
 .nav_local .item.active a{color:#fff;background-color: #6055DB;font-weight:700;}
 .nav_local .item a:hover{color:#000;text-decoration: underline;}
 .nav_local .item.active a:hover{color:#fff;text-decoration: none;}
+.nav_local .item.active + .item:before{display:none;}
+.nav_local .item + .item.active:before{display:none;}
 
 .detail_edit{color:#222;font-size:17px;font-weight:500;padding:50px 30px;}
 .detail_pagenation{border-top:1px solid #E0E0E0;border-bottom:1px solid #E0E0E0;}
