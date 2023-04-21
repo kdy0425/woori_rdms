@@ -486,7 +486,7 @@ background-position: center center;background-repeat: no-repeat;}
 .lg_txt_box .box .cnt{color:#6A6A75;font-size:15px;}
 .lg_txt_box .tw_table{margin-top:15px;}
 .center_btns{margin-top:24px;text-align: center;}
-.center_btns .btn{display: inline-block;margin:0 3px;padding:13px 25px;min-width:90px;font-weight:700;border:1px solid #D0D0D0;background-color:#fff;border-radius:8px;text-align: center;color:#222;font-size:15px;}
+.center_btns .btn{display: inline-block;margin:0 3px;height:47px;padding:13px 25px;min-width:90px;font-weight:700;border:1px solid #D0D0D0;background-color:#fff;border-radius:8px;text-align: center;color:#222;font-size:15px;}
 .center_btns .btn.submit{border:1px solid #6055DB;background-color:#6055DB;color:#fff;font-weight:400;}
 .center_btns .btn.cancel{color:#6A6A75;font-weight:400;}
 
