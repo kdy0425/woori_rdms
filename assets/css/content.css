@@ -14,7 +14,7 @@
 #header #hd_wrap .logo_area{float:left;margin-top:26px}
 #header #hd_wrap .logo_area a{height:100%;displaY:block;}
 #header #hd_wrap .logo_area #logo{float:left;width:122px;height:30px;background-position: center center;background-repeat: no-repeat;background-size:contain;background-image: url('../images/logo.png');}
-#header #hd_wrap .logo_area .rdms{float:left;width:84px;height:30px;background-position: center center;background-repeat: no-repeat;background-size:84px;background-image: url('../images/rdms.png');position:relative;margin-left:41px;}
+#header #hd_wrap .logo_area .rdms{float:left;width:98px;height:30px;background-position: center center;background-repeat: no-repeat;background-size:98px;background-image: url('../images/rdms.png');position:relative;margin-left:41px;}
 #header #hd_wrap .logo_area #logo + .rdms:before{content:"";height:24px;width:1px;background-color: #E0E0E0;opacity:0.3;position:absolute;left:-21px;top:3px;}
 #header #hd_wrap .r{float:right;}
 #header #hd_wrap .hd_cs{float:left;position:relative;}
@@ -338,6 +338,9 @@ background-position: center center;background-repeat: no-repeat;background-image
 .checkbox input[type="radio"]:checked + .icon{background-color: #6055DB;}
 .checkbox input[type="checkbox"] + .icon{position:absolute;left:0;top:0;display:block;width:24px;height:24px;border:1px solid #d0d0d0;background-color: #fff;background-size:20px;background-position: center center;background-repeat: no-repeat;}
 .checkbox input[type="checkbox"]:checked + .icon{background-color: #6055DB;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-check' width='44' height='44' viewBox='0 0 24 24' stroke-width='2.5' stroke='%23ffffff' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 12l5 5l10 -10' /%3E%3C/svg%3E");}
+.checkbox input[type="checkbox"] + .icon2{position:absolute;left:0;top:0;display:block;width:24px;height:24px;border:1px solid #ccc;border-radius:8px;background-color: #fff;background-size:20px;background-position: center center;background-repeat: no-repeat;}
+.checkbox input[type="checkbox"]:checked + .icon2{background-color: #fff;background-size:14px;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.536' height='9.518' viewBox='0 0 13.536 9.518'%3E%3Cg id='ico_check' transform='translate(-0.732 -2.732)'%3E%3Cpath id='패스_8136' data-name='패스 8136' d='M2.5,7.5,6,11l6.5-6.5' fill='none' stroke='%236055db' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5'/%3E%3C/g%3E%3C/svg%3E%0A");}
+
 
 .paging_box .total{position:absolute;left:0;top:0;line-height:36px;color:#222222;font-size:15px;}
 .paging_box .total strong{color: #6055DB;font-weight:700;}
@@ -519,3 +522,14 @@ background-position: center center;background-repeat: no-repeat;}
 .notfound .cnt{margin-top:28px;border-top:1px solid #E0E0E0;border-bottom:1px solid #E0E0E0;padding:40px 25px;color:#6A6A75;font-size:15px;font-weight:500;text-align: left;line-height:1.5;word-break: keep-all}
 .notfound .cnt strong{color:#222;font-size:17px;font-weight:700;margin-top:18px;display:block;}
 .notfound .btn{display:inline-block;background-color: #12004D;color:#fff;border-radius:8px;margin-top:20px;font-size:16px;text-align:center;padding:14px 44px 13px;}
+
+.popup_page{}
+.popup_page .popup_site{background-color:#12004D;padding:13px 30px;}
+.popup_page .popup_site .popup_logo{width:86px;height:35px;background-image: url('../images/rdms_intro.png');background-repeat:no-repeat;background-size:contain;background-position:center center;text-indent:-999em;overflow:hidden;}
+.popup_page .popup_area{padding:38px 30px 30px;}
+.popup_page .popup_area .popup_title{padding-bottom:13px;color:#222;font-size:22px;font-weight:700;border-bottom:2px solid #465162; }
+.popup_page .popup_area .popup_content{padding-top:30px;height:390px;overflow-y:auto;color:#222;font-size:15px;line-height:24px;}
+.popup_page .popup_area .popup_content strong{font-size:16px;font-weight:700;;}
+.popup_page .popup_area .popup_btns{display:flex;align-items:center;justify-content:space-between;margin-top:20px;}
+.popup_page .popup_area .popup_btns label{color:#222;font-size:15px;padding-top:3px;}
+.popup_page .popup_area .popup_btns .btn{height: 46px;border-radius: 8px;background-color: #fff;border: 1px solid #D0D0D0;color: #6A6A75;font-size: 15px;padding: 0 10px;min-width: 90px;}
